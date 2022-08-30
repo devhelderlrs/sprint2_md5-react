@@ -1,0 +1,40 @@
+nav {
+  width: 80px;
+  height: 100%;
+  background-color: darkgray;
+  position: fixed;
+  z-index: 1;
+  text-align: left;
+  top: 0;
+  left: 0;
+  padding: 0;
+  transition: .3s;
+  word-wrap: normal;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px 0 0 10px;
+  list-style: none;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+nav ul li {
+  align-items: center;
+  text-align: center;
+  font-size: 10pt;
+  margin: 10px 0;
+  height: 30px;
+}
+
+nav:hover ul li {
+  padding-left: 50px;
+}
+
+.ativo {
+  width: 80px;
+  background-color: #f49f8e;
+}

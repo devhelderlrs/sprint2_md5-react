@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  /* display: flex; */
+}
+
+#form-geral {
+  border-left-width: 200px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 50px auto;
+  gap: 10px;
+  align-items: center;
+}
+
+#form-geral input {
+  width: 60%;
+  border-radius: 5px;
+  height: 20px;
+  border: 1px dashed;
+}
+
+.lista-usuarios-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+}
+
+.lista-usuarios-container p {
+  margin: 5px;
+}
+
+.lista-usuarios {
+  border: 1px solid;
+  width: 400px;
+  margin: 10px auto;
+  text-align: center;
+}
