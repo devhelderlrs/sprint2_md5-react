@@ -97,7 +97,7 @@ export const Form = () => {
       ></input>
 
       <button type="button" onClick={(e) => salvaUsuario(e)}>
-        BOTÃO AQUI
+        SALVAR
       </button>
     </form>
   );
